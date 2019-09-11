@@ -25,6 +25,12 @@
     color: #E0E0E0;
 }
 
+.no-dot {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .section-over-img {
     position: absolute;
     top: 40%;
