@@ -1,5 +1,17 @@
 #logo {
     position: relative;
+    margin-left: 50px;
+    transition: transform 0.25s;
+    transform: scale(1.0);
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 0px;
+}
+
+#logo:hover {
+    transform: scale(1.10);
 }
 
 .logo-container {
@@ -8,7 +20,7 @@
 }
 
 .navbar-title {
-    background-color: #f8ca01A0;
+    background-color: #292929A0;
     height: 90px;
 }
 
@@ -46,7 +58,7 @@
 .section-over-img {
     position: absolute;
     top: 40%;
-    left: 15%;  
+    left: 15%;
     min-width: 100%;
 }
 
@@ -58,10 +70,17 @@
 }
 
 .nav-link {
-    font-size: initial;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 21pt;
     transition: font-size 0.25s;
 }
 
 .nav-link:hover {
-    font-size: 13pt;
+    font-size: 23pt;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 0;
 }
