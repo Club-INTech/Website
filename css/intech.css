@@ -15,6 +15,7 @@
 .navbar-footer {
     background-color: #292929;
     padding-bottom: 5px;
+    padding-top: 4px;
 }
 
 .credits {
@@ -28,6 +29,7 @@
 .small-icon {
     width:40px;
     height:40px;
+    margin-left: 5px;
 }
 
 .no-dot {
