@@ -1,21 +1,36 @@
 #logo {
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    cursor: pointer;
+    position: relative;
 }
 
 .logo-container {
-    pointer-events: none; /* Désactive les clics sur ce composant */
     position: absolute;
-    width: 100vw;
     z-index: 100;
 }
 
-.navbar {
+.navbar-title {
     background-color: #dfbe2d;
+    height: 90px;
+}
+
+.navbar-footer {
+    background-color: #292929;
+    height: 90px;
+}
+
+.section-over-img {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    min-width: 50%;
 }
 
 .over-text {
     background-color: #A0F0F0F0;
+    border-radius: 4px;
+    border-width: 1px;
+    padding: 5px 10px 1px;
+}
+
+.section-title {
+
 }
