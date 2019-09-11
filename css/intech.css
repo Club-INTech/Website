@@ -1,0 +1,21 @@
+#logo {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    cursor: pointer;
+}
+
+.logo-container {
+    pointer-events: none; /* Désactive les clics sur ce composant */
+    position: absolute;
+    width: 100vw;
+    z-index: 100;
+}
+
+.navbar {
+    background-color: #dfbe2d;
+}
+
+.over-text {
+    background-color: #A0F0F0F0;
+}
