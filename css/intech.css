@@ -46,8 +46,8 @@
 .section-over-img {
     position: absolute;
     top: 40%;
-    left: 15%;
-    min-width: 50%;
+    left: 15%;  
+    min-width: 100%;
 }
 
 .over-text {
