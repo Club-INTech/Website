@@ -22,7 +22,7 @@
 }
 
 .footer-content {
-    color: #f0f0f0;
+    color: #E0E0E0;
 }
 
 .section-over-img {
@@ -39,6 +39,11 @@
     padding: 5px 10px 1px;
 }
 
-.spacer {
-    height: 100vh;
+.nav-link {
+    font-size: initial;
+    transition: font-size 0.25s;
+}
+
+.nav-link:hover {
+    font-size: 13pt;
 }
