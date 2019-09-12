@@ -40,10 +40,38 @@
     color: #E0E0E0;
 }
 
-.small-icon {
-    width:10%;
-    height:10%;
-    margin-left: 1% ;
+@media(max-width: 991px) {
+    .footer-spacer {
+        height: 15vh;
+    }
+
+    .navbar-spacer {
+        height: 16vh;
+    }
+
+    .small-icon {
+        min-width: 20px;
+        min-height: 20px;
+        width:3%;
+        height:3%;
+        margin-left: 1%;
+    }
+}
+
+@media(min-width: 992px) {
+    .footer-spacer {
+        height: 25vh;
+    }
+
+    .navbar-spacer {
+        height: 8vh;
+    }
+
+    .small-icon {
+        width:10%;
+        height:10%;
+        margin-left: 1% ;
+    }
 }
 
 .no-dot {

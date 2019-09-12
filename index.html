@@ -23,7 +23,7 @@
 
   <!-- INTech Logo -->
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-title">
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-title fixed-top">
       <a class="navbar-brand" href="index.html"><img src="img/logo_small.png" id="logo" /></a>
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -44,6 +44,9 @@
       </div>
   </nav>
 
+  <div class="navbar-spacer">
+  </div>
+
   <!-- Page Content -->
   <section class="container">
       <div class="over-text">
@@ -62,6 +65,9 @@
       </div>
   </section>
 
+  <div class="footer-spacer">
+  </div>
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -69,7 +75,8 @@
 </body>
 
 <footer class="fixed-bottom">
-    <div class="bg-dark navbar-footer footer-content">
+    <!-- Footer pour grands écrans -->
+    <div class="bg-dark navbar-footer footer-content d-none d-lg-block">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4 text-right"> 
@@ -83,17 +90,44 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4 text-center no-dot"> 
+                <div class="col-md-4 text-center no-dot">
                     (c) Club INTech 2019
                 </div>
                 <div class="col-md-4">
                     <ul class="no-dot">
                         <li><u>E-Mail</u>: <a href="mailto:intech@telecom-sudparis.eu">intech@telecom-sudparis.eu</a></li>
-                        <li><u>Courrier</u>: <a href="https://www.google.fr/maps/place/T%C3%A9l%C3%A9com+SudParis/@48.6244232,2.4420885,17z/data=!4m13!1m7!3m6!1s0x47e5e0a5be1880a3:0xdb67f02ad9dcc8e4!2s5+Rue+Charles+Fourier,+91000+%C3%89vry!3b1!8m2!3d48.6244187!4d2.4442209!3m4!1s0x0:0x4e9a8a2c90c2a7e1!8m2!3d48.6246883!4d2.443251" target="_blank"> Club INTech, 5 rue Charles Fourier, 91000 Evry</li>
+                        <li><u>Courrier</u>: <a href="https://www.google.fr/maps/place/T%C3%A9l%C3%A9com+SudParis/@48.6244232,2.4420885,17z/data=!4m13!1m7!3m6!1s0x47e5e0a5be1880a3:0xdb67f02ad9dcc8e4!2s5+Rue+Charles+Fourier,+91000+%C3%89vry!3b1!8m2!3d48.6244187!4d2.4442209!3m4!1s0x0:0x4e9a8a2c90c2a7e1!8m2!3d48.6246883!4d2.443251" target="_blank"> Club INTech, 5 rue Charles Fourier, 91000 Evry</a></li>
                     </ul>
                 </div>
             </div>
-            
+        </div>
+    </div>
+
+    <!-- Footer pour les ptits nécrans -->
+    <div class="bg-dark navbar-footer footer-content d-lg-none text-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="no-dot">
+                        <li>
+                            <a href="https://twitter.com/Club_INTech" target="_blank"><img class="small-icon" src="img/logo_twitter.png"/></a>
+                            <a href="https://www.facebook.com/INTechTSP" target="_blank"><img class="small-icon" src="img/logo_facebook.png"/></a>
+                            <a href="https://www.youtube.com/user/ClubINTech" target="_blank"><img class="small-icon" src="img/logo_youtube.png"/></a>
+                            <a href="https://fr.linkedin.com/company/club-intech" target="_blank"><img class="small-icon" src="img/logo_linkedin.png"/></a>
+                            <a href="#TODO" target="_blank"><img class="small-icon" src="img/logo_instagram.png"/></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-12">
+                    <ul class="no-dot">
+                        <li><u>E-Mail</u>: <a href="mailto:intech@telecom-sudparis.eu">intech@telecom-sudparis.eu</a></li>
+                        <li><u>Courrier</u>: <a href="https://www.google.fr/maps/place/T%C3%A9l%C3%A9com+SudParis/@48.6244232,2.4420885,17z/data=!4m13!1m7!3m6!1s0x47e5e0a5be1880a3:0xdb67f02ad9dcc8e4!2s5+Rue+Charles+Fourier,+91000+%C3%89vry!3b1!8m2!3d48.6244187!4d2.4442209!3m4!1s0x0:0x4e9a8a2c90c2a7e1!8m2!3d48.6246883!4d2.443251" target="_blank"> Club INTech, 5 rue Charles Fourier, 91000 Evry</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-12 no-dot">
+                    (c) Club INTech 2019
+                </div>
+            </div>
         </div>
     </div>
 </footer>
