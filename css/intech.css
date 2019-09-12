@@ -64,7 +64,6 @@
 }
 
 .over-text {
-    /*background-color: #a9adcfEA;*/
     background-color: #292929EA;
     color: #eaeaea;
     border-radius: 4px;
@@ -87,4 +86,9 @@
 .navbar-brand {
     position: absolute;
     left: 0;
+}
+
+.navbar-nav  {
+    background-color: #292929E0;
+    border-radius: 0% 0% 12% 12%;
 }
