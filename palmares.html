@@ -23,44 +23,49 @@
 
   <!-- INTech Logo -->
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-title">
-    <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-title fixed-top">
       <a class="navbar-brand" href="index.html"><img src="img/logo_small.png" id="logo" /></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
             <a class="nav-link" href="histoire.html">Histoire du club</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="partenaires.html">Nos Partenaires</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="palmares.html">Notre Palmarès</a>
           </li>
         </ul>
       </div>
-    </div>
   </nav>
 
+  <div class="navbar-spacer">
+  </div>
+
   <!-- Page Content -->
-  <section class="section-over-img">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-            <div class="over-text">
-                <h1 class="section-title">Club INTech</h1>
-                <p>Le Club INTech c'est nous. On est cool. La robotique c'est faire des robots, et ça c'est cool. zkjdhzqudgzqiudhzqpdgzqudhgzqdiuhq zomidfgyvuidoçaefhu gof i </p>
-            </div>
-        </div>
+  <section class="container">
+      <div class="over-text">
+                <h1 class="section-title text-center">Club INTech</h1>
+                <p>Le Club INTech c'est nous. On est cool. La robotique c'est faire des robots, et ça c'est cool. zkjdhzqudgzqiudhzqpdgzqudhgzqdiuhq zomidfgyvuidoçaefhu gof i 
+
+
+                  Nihil morati post haec militares avidi saepe turbarum adorti sunt Montium primum, qui divertebat in proximo, levi corpore senem atque morbosum, et hirsutis resticulis cruribus eius innexis divaricaturn sine spiramento ullo ad usque praetorium traxere praefecti.
+                  </p>
+                  <p>
+                  Ultima Syriarum est Palaestina per intervalla magna protenta, cultis abundans terris et nitidis et civitates habens quasdam egregias, nullam nulli cedentem sed sibi vicissim velut ad perpendiculum aemulas: Caesaream, quam ad honorem Octaviani principis exaedificavit Herodes, et Eleutheropolim et Neapolim itidemque Ascalonem Gazam aevo superiore exstructas.
+                  </p>
+                  <p>
+                  Etenim si attendere diligenter, existimare vere de omni hac causa volueritis, sic constituetis, iudices, nec descensurum quemquam ad hanc accusationem fuisse, cui, utrum vellet, liceret, nec, cum descendisset, quicquam habiturum spei fuisse, nisi alicuius intolerabili libidine et nimis acerbo odio niteretur. Sed ego Atratino, humanissimo atque optimo adulescenti meo necessario, ignosco, qui habet excusationem vel pietatis vel necessitatis vel aetatis. Si voluit accusare, pietati tribuo, si iussus est, necessitati, si speravit aliquid, pueritiae. Ceteris non modo nihil ignoscendum, sed etiam acriter est resistendum.
+                </p>
       </div>
-    </div>
   </section>
 
-  <div class="spacer">
-
+  <div class="footer-spacer">
   </div>
 
   <!-- Bootstrap core JavaScript -->
@@ -69,23 +74,57 @@
 
 </body>
 
-<footer>
-    <div class="bg-dark navbar-footer footer-content">
-        <div class="container">
+<footer class="fixed-bottom">
+    <!-- Footer pour grands écrans -->
+    <div class="bg-dark navbar-footer footer-content d-none d-lg-block">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-1 offset-md-5">
-                    AAA
+                <div class="col-md-4 text-right"> 
+                    <ul class="no-dot">
+                        <li>
+                            <a href="https://twitter.com/Club_INTech" target="_blank"><img class="small-icon" src="img/logo_twitter.png"/></a>
+                            <a href="https://www.facebook.com/INTechTSP" target="_blank"><img class="small-icon" src="img/logo_facebook.png"/></a>
+                            <a href="https://www.youtube.com/user/ClubINTech" target="_blank"><img class="small-icon" src="img/logo_youtube.png"/></a>
+                            <a href="https://fr.linkedin.com/company/club-intech" target="_blank"><img class="small-icon" src="img/logo_linkedin.png"/></a>
+                            <a href="#TODO" target="_blank"><img class="small-icon" src="img/logo_instagram.png"/></a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-md-6">
-                    Contacts:
-                    <ul>
-                        <li><u>E-Mail</u>: <a href="mailto:">intech@intech.intech</a></li>
-                        <li><u> Courrier</u>: Club INTech, 5 rue Charles Fourier, 91000 Evry</li>
+                <div class="col-md-4 text-center no-dot">
+                    (c) Club INTech 2019
+                </div>
+                <div class="col-md-4">
+                    <ul class="no-dot">
+                        <li><u>E-Mail</u>: <a href="mailto:intech@telecom-sudparis.eu">intech@telecom-sudparis.eu</a></li>
+                        <li><u>Courrier</u>: <a href="https://www.google.fr/maps/place/T%C3%A9l%C3%A9com+SudParis/@48.6244232,2.4420885,17z/data=!4m13!1m7!3m6!1s0x47e5e0a5be1880a3:0xdb67f02ad9dcc8e4!2s5+Rue+Charles+Fourier,+91000+%C3%89vry!3b1!8m2!3d48.6244187!4d2.4442209!3m4!1s0x0:0x4e9a8a2c90c2a7e1!8m2!3d48.6246883!4d2.443251" target="_blank"> Club INTech, 5 rue Charles Fourier, 91000 Evry</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="row credits">
-                <div class="col-md-2 offset-md-5">
+        </div>
+    </div>
+
+    <!-- Footer pour les ptits nécrans -->
+    <div class="bg-dark navbar-footer footer-content d-lg-none text-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="no-dot">
+                        <li>
+                            <a href="https://twitter.com/Club_INTech" target="_blank"><img class="small-icon" src="img/logo_twitter.png"/></a>
+                            <a href="https://www.facebook.com/INTechTSP" target="_blank"><img class="small-icon" src="img/logo_facebook.png"/></a>
+                            <a href="https://www.youtube.com/user/ClubINTech" target="_blank"><img class="small-icon" src="img/logo_youtube.png"/></a>
+                            <a href="https://fr.linkedin.com/company/club-intech" target="_blank"><img class="small-icon" src="img/logo_linkedin.png"/></a>
+                            <a href="#TODO" target="_blank"><img class="small-icon" src="img/logo_instagram.png"/></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-12">
+                    <ul class="no-dot">
+                        <li><u>E-Mail</u>: <a href="mailto:intech@telecom-sudparis.eu">intech@telecom-sudparis.eu</a></li>
+                        <li><u>Courrier</u>: <a href="https://www.google.fr/maps/place/T%C3%A9l%C3%A9com+SudParis/@48.6244232,2.4420885,17z/data=!4m13!1m7!3m6!1s0x47e5e0a5be1880a3:0xdb67f02ad9dcc8e4!2s5+Rue+Charles+Fourier,+91000+%C3%89vry!3b1!8m2!3d48.6244187!4d2.4442209!3m4!1s0x0:0x4e9a8a2c90c2a7e1!8m2!3d48.6246883!4d2.443251" target="_blank"> Club INTech, 5 rue Charles Fourier, 91000 Evry</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-12 no-dot">
                     (c) Club INTech 2019
                 </div>
             </div>
