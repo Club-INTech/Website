@@ -9,6 +9,8 @@
 .navbar-nav {
     position: absolute;
     right: 0px;
+    background-color: #292929E0;
+    border-radius: 0% 0% 12% 12%;
 }
 
 #logo:hover {
@@ -22,7 +24,7 @@
 }
 
 .navbar-title {
-    background-color: #292929A0;
+    background-color: #292929E0;
     height: 80px;
 }
 
@@ -92,7 +94,7 @@
 }
 
 .over-text {
-    background-color: #292929EA;
+    background-color: #292929E0;
     color: #eaeaea;
     border-radius: 4px;
     border-width: 1px;
@@ -104,19 +106,14 @@
     margin-left: 10px;
     margin-right: 10px;
     font-size: 125%;
-    transition: font-size 0.25s;
+    /*transition: font-size 0.25s;
 }
 
 .nav-link:hover {
-    font-size: 150%;
+    font-size: 150%;*/
 }
 
 .navbar-brand {
     position: absolute;
     left: 0;
-}
-
-.navbar-nav  {
-    background-color: #292929E0;
-    border-radius: 0% 0% 12% 12%;
 }
